@@ -1,0 +1,29 @@
+create-root A
+assign-w A 100
+assign-h A 50
+display
+cut-v A B C
+assign-w B 30
+assign-h B 50
+assign-w C 70
+assign-h C 50
+display
+compact
+display
+cut-h C D E
+assign-w D 70
+assign-h D 20
+assign-w E 70
+assign-h E 30
+display
+compact
+display
+cut-v E F G
+assign-w F 40
+assign-h F 30
+assign-w G 30
+assign-h G 30
+display
+compact
+display
+quit
